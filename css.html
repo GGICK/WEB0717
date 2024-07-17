@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css test</title>
+    <style>
+      input[type="text"] {
+        background: red;
+      }
+      input[type="password"] {
+        background: blue;
+      }
+      #header h1 {
+        color: red;
+      }
+      #section h1 {
+        color: orange;
+      }
+      #header2 > h1 {
+        color: red;
+      }
+      #section2 > h1 {
+        color: orange;
+      }
+      table tr th {
+        color: red;
+      }
+      #clicked:hover {
+        color: red;
+      }
+      #clicked:active {
+        color: blue;
+      }
+      .widthheight {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 20px solid black;
+        margin: 10px;
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type="text" />
+      <input type="password" />
+    </form>
+
+    <br />
+    <hr />
+    <br />
+
+    <div id="header">
+      <h1 class="title">Lorem ipsum</h1>
+      <div id="nav">
+        <h1>Navigation</h1>
+      </div>
+    </div>
+    <div id="section">
+      <h1 class="title">lorem ipsum</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div id="header2">
+      <h1 class="title">Lorem ipsum</h1>
+      <div id="nav">
+        <h1>Navigation</h1>
+      </div>
+    </div>
+    <div id="section2">
+      <h1 class="title">lorem ipsum</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <table border="1">
+      <tr>
+        <th>이름</th>
+        <th>지역</th>
+      </tr>
+      <tr>
+        <td>윤인성</td>
+        <td>서울특별시 강서구 내발산동</td>
+      </tr>
+    </table>
+
+    <br />
+    <hr />
+    <br />
+
+    <h1 id="clicked">반응 선택자</h1>
+
+    <br />
+    <hr />
+    <br />
+
+    <div class="widthheight"></div>
+  </body>
+</html>
